@@ -21,7 +21,7 @@ class Song
     @@genres = @genre
   end
   def self.artists
-    b
+    binding.pry
     @@artists
   end
   def self.genre_count
