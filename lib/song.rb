@@ -1,3 +1,4 @@
+require "pry"
 class Song
   attr_accessor :name, :artist, :genre
   @@count = 0
@@ -20,6 +21,7 @@ class Song
     @@genres = @genre
   end
   def self.artists
+    b
     @@artists
   end
   def self.genre_count
